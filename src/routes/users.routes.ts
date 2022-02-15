@@ -25,10 +25,11 @@ usersRoutes.get("/:user_id", (request, response) =>
   showUserProfileController.handle(request, response)
 );
 
-
+//ok
 
 usersRoutes.get("/", (request, response) =>
   listAllUsersController.handle(request, response)
 );
 
 export { usersRoutes };
+
